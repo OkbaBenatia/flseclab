@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLSecLAB – Federated Learning Security Laboratory</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 50px 60px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border-radius: 8px;
+            border-top: 6px solid #003366;
+        }
+        header {
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #003366;
+            font-size: 2.4em;
+            margin-bottom: 5px;
+            font-family: 'Georgia', serif;
+            letter-spacing: -0.5px;
+        }
+        .subtitle {
+            font-size: 1.3em;
+            color: #555;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        .description {
+            font-size: 1.1em;
+            color: #444;
+            margin-bottom: 25px;
+        }
+        .meta-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-left: 4px solid #003366;
+            border-radius: 0 4px 4px 0;
+        }
+        .meta-info p {
+            margin: 0 0 15px 0;
+            font-weight: 600;
+            color: #222;
+        }
+        .status-badges {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .badge {
+            display: inline-block;
+            background-color: #e9ecef;
+            color: #495057;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 500;
+            border: 1px solid #dee2e6;
+        }
+        .badge.highlight {
+            background-color: #e3f2fd;
+            color: #0d47a1;
+            border-color: #bbdefb;
+        }
+        h2 {
+            color: #003366;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 8px;
+            margin-top: 45px;
+            margin-bottom: 20px;
+            font-family: 'Georgia', serif;
+            font-size: 1.5em;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+            border-bottom: 1px dotted #0056b3;
+            transition: color 0.2s, border-bottom-color 0.2s;
+        }
+        a:hover {
+            color: #003366;
+            border-bottom: 1px solid #003366;
+        }
+        .author-section {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+            text-align: center;
+        }
+        .author-name {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 15px;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            border: none;
+            color: #444;
+            font-weight: 500;
+        }
+        .social-links a:hover {
+            color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 0.85em;
+            color: #888;
+        }
+        @media (max-width: 600px) {
+            .container {
+                margin: 0;
+                border-radius: 0;
+                padding: 30px 20px;
+                border-top: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FLSecLAB</h1>
+            <p class="description">Experimental research platform for studying attacks, defense mechanisms, and resilience in secure collaborative AI and distributed learning systems.</p>
+            
+            <div class="meta-info">
+                <p>Created by Dr. Okba Ben Atia</p>
+                <div class="status-badges">
+                    <span class="badge">📄 Paper in progress</span>
+                    <span class="badge highlight">💻 Open-source framework coming soon</span>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <h2>About the Framework</h2>
+            <p>FLSecLAB is a research framework for studying security of collaborative AI systems in distributed environments such as IoT networks, cyber-physical systems, and connected vehicles.</p>
+        </section>
+
+        <section>
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>Simulation of distributed collaborative learning environments</strong></li>
+                <li><strong>Attack and defense modules</strong></li>
+                <li><strong>Control of experimental scenarios</strong></li>
+                <li><strong>Evaluation of robustness and trustworthiness</strong></li>
+                <li><strong>Modular architecture extensible beyond federated learning</strong></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Research Context</h2>
+            <p>Mention the PhD work:</p>
+            <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=n5zSD7QAAAAJ&citation_for_view=n5zSD7QAAAAJ:2osOgNQ5qMEC" target="_blank" rel="noopener noreferrer">Secure Collaborative Management Platform Applied to IoT Networks</a></p>
+        </section>
+
+        <section>
+            <h2>Applications</h2>
+            <ul>
+                <li>Federated learning security</li>
+                <li>Intrusion detection in distributed systems</li>
+                <li>Trust management in IoT and CPS</li>
+                <li>Secure collaborative AI</li>
+            </ul>
+        </section>
+
+        <section class="author-section">
+            <div class="author-name">Dr. Okba Ben Atia</div>
+            <div class="social-links">
+                <a href="https://scholar.google.com/citations?user=n5zSD7QAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+                <a href="https://www.linkedin.com/in/benatiaokba/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 FLSecLAB. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
