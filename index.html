@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FLSecLAB – Secure and Trustworthy Distributed AI Laboratory</title>
+    <title>FLSecLAB – Trustworthy Distributed AI Laboratory</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,8 +13,9 @@
             margin: 0;
             padding: 0;
         }
+
         .container {
-            max-width: 800px;
+            max-width: 850px;
             margin: 40px auto;
             background-color: #fff;
             padding: 50px 60px;
@@ -22,43 +23,51 @@
             border-radius: 8px;
             border-top: 6px solid #003366;
         }
+
         header {
             margin-bottom: 40px;
         }
+
         h1 {
             color: #003366;
             font-size: 2.4em;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
             font-family: 'Georgia', serif;
             letter-spacing: -0.5px;
         }
+
         .subtitle {
-            font-size: 1.3em;
+            font-size: 1.25em;
             color: #555;
-            margin-bottom: 20px;
-            font-weight: 300;
+            margin-bottom: 22px;
+            font-weight: 400;
         }
+
         .description {
             font-size: 1.1em;
             color: #444;
             margin-bottom: 25px;
         }
+
         .meta-info {
             background-color: #f8f9fa;
             padding: 20px;
             border-left: 4px solid #003366;
             border-radius: 0 4px 4px 0;
         }
+
         .meta-info p {
             margin: 0 0 15px 0;
             font-weight: 600;
             color: #222;
         }
+
         .status-badges {
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
         }
+
         .badge {
             display: inline-block;
             background-color: #e9ecef;
@@ -69,11 +78,13 @@
             font-weight: 500;
             border: 1px solid #dee2e6;
         }
+
         .badge.highlight {
             background-color: #e3f2fd;
             color: #0d47a1;
             border-color: #bbdefb;
         }
+
         h2 {
             color: #003366;
             border-bottom: 2px solid #f0f0f0;
@@ -83,43 +94,64 @@
             font-family: 'Georgia', serif;
             font-size: 1.5em;
         }
+
         p {
             margin-bottom: 15px;
         }
+
         ul {
             padding-left: 20px;
             margin-bottom: 20px;
         }
+
         li {
             margin-bottom: 10px;
         }
+
         a {
             color: #0056b3;
             text-decoration: none;
             border-bottom: 1px dotted #0056b3;
             transition: color 0.2s, border-bottom-color 0.2s;
         }
+
         a:hover {
             color: #003366;
             border-bottom: 1px solid #003366;
         }
+
+        .highlight-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #2e7d32;
+            padding: 18px 20px;
+            margin-top: 20px;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .highlight-box strong {
+            color: #1b5e20;
+        }
+
         .author-section {
             margin-top: 60px;
             padding-top: 30px;
             border-top: 1px solid #eee;
             text-align: center;
         }
+
         .author-name {
             font-size: 1.3em;
             font-weight: bold;
             color: #222;
             margin-bottom: 15px;
         }
+
         .social-links {
             display: flex;
             justify-content: center;
             gap: 20px;
         }
+
         .social-links a {
             display: inline-flex;
             align-items: center;
@@ -127,15 +159,18 @@
             color: #444;
             font-weight: 500;
         }
+
         .social-links a:hover {
             color: #0056b3;
         }
+
         footer {
             text-align: center;
             margin-top: 60px;
             font-size: 0.85em;
             color: #888;
         }
+
         @media (max-width: 600px) {
             .container {
                 margin: 0;
@@ -143,17 +178,37 @@
                 padding: 30px 20px;
                 border-top: none;
             }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .subtitle {
+                font-size: 1.1em;
+            }
+
+            .social-links {
+                flex-direction: column;
+                gap: 10px;
+            }
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
             <h1>FLSecLAB</h1>
-            <p class="description">
-                Experimental research platform for studying attacks, defense mechanisms, AI-based source trustworthiness, and resilience in secure collaborative AI and distributed intelligent systems.
+
+            <p class="subtitle">
+                Experimental Platform for Secure, Trustworthy, and Resilient Distributed AI
             </p>
-            
+
+            <p class="description">
+                FLSecLAB is an experimental research platform for studying attacks, defense mechanisms,
+                AI-based source trustworthiness, and resilience in distributed intelligent systems.
+            </p>
+
             <div class="meta-info">
                 <p>Created by Dr. Okba Ben Atia</p>
                 <div class="status-badges">
@@ -165,63 +220,120 @@
 
         <section>
             <h2>About the Framework</h2>
+
             <p>
-                FLSecLAB is a research framework for studying the security, trustworthiness, and resilience of collaborative AI systems in distributed environments such as IoT networks, cyber-physical systems, edge/cloud infrastructures, and connected vehicles.
+                FLSecLAB is a research framework designed to support experimentation on the security,
+                trustworthiness, and resilience of collaborative AI systems operating in distributed
+                and heterogeneous environments.
             </p>
+
             <p>
-                Initially inspired by research on secure federated learning in IoT networks, FLSecLAB extends beyond federated learning to support experimental scenarios involving heterogeneous data sources, malicious or unreliable sources, trustworthiness scoring, attacks, defenses, robust fusion, and decision-making under uncertainty.
+                The platform enables the design, execution, and comparison of experimental scenarios
+                involving heterogeneous data sources, reliable and unreliable participants, malicious
+                behaviors, attacks, defense mechanisms, trustworthiness scoring, robust fusion, and
+                decision-making under uncertainty.
+            </p>
+
+            <p>
+                It targets complex environments such as IoT networks, cyber-physical systems,
+                connected vehicles, intelligent mobility infrastructures, edge/cloud systems,
+                and distributed autonomous systems.
             </p>
         </section>
 
         <section>
             <h2>Key Features</h2>
+
             <ul>
-                <li><strong>Simulation of distributed collaborative AI and learning environments</strong></li>
+                <li><strong>Simulation of distributed collaborative AI environments</strong></li>
                 <li><strong>AI-based source trustworthiness assessment</strong></li>
                 <li><strong>Trust scoring for data sources, clients, models, and decisions</strong></li>
                 <li><strong>Detection of malicious, unreliable, or low-confidence sources</strong></li>
                 <li><strong>Attack and defense modules</strong></li>
-                <li><strong>Control and reproducibility of experimental scenarios</strong></li>
-                <li><strong>Evaluation of robustness, resilience, confidence, and trustworthiness</strong></li>
+                <li><strong>Scenario-based experimentation with reproducible configurations</strong></li>
+                <li><strong>Evaluation of detection, robustness, confidence, resilience, and trustworthiness</strong></li>
                 <li><strong>Confidence-aware fusion and robust decision-making</strong></li>
+                <li><strong>Comparison of runs, baselines, attacks, and defense strategies</strong></li>
                 <li><strong>Modular architecture extensible beyond federated learning</strong></li>
             </ul>
         </section>
 
         <section>
             <h2>Research Context</h2>
+
             <p>
                 FLSecLAB builds on the PhD work of Dr. Okba Ben Atia:
             </p>
+
             <p>
-                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=n5zSD7QAAAAJ&citation_for_view=n5zSD7QAAAAJ:2osOgNQ5qMEC" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=n5zSD7QAAAAJ&citation_for_view=n5zSD7QAAAAJ:2osOgNQ5qMEC"
+                   target="_blank"
+                   rel="noopener noreferrer">
                     Secure Collaborative Management Platform Applied to IoT Networks
                 </a>
             </p>
+
             <p>
-                The framework extends this research direction toward secure, trustworthy, and resilient distributed AI systems, with a particular focus on source reliability, adversarial behavior, robust aggregation, explainability, and decision support in heterogeneous environments.
+                The framework extends this research direction toward secure, trustworthy, and resilient
+                distributed AI systems, with a particular focus on source reliability, adversarial behavior,
+                robust aggregation, explainability, confidence-aware fusion, and decision support in
+                heterogeneous environments.
             </p>
+
+            <div class="highlight-box">
+                <strong>Research objective:</strong>
+                move from simple attack detection toward a complete experimental chain:
+                heterogeneous sources, trustworthiness assessment, robust fusion, explainable decision-making,
+                and resilience under degraded or adversarial conditions.
+            </div>
         </section>
 
         <section>
             <h2>Applications</h2>
+
             <ul>
-                <li>Federated learning security</li>
+                <li>Secure collaborative AI</li>
                 <li>AI-based source trustworthiness in distributed systems</li>
                 <li>Intrusion detection in IoT, CPS, and connected vehicles</li>
                 <li>Trust management and source reliability assessment</li>
                 <li>Trust-aware intrusion detection</li>
                 <li>Confidence-aware decision support</li>
                 <li>Attack and defense evaluation in distributed AI systems</li>
-                <li>Secure collaborative AI</li>
+                <li>Robust decision-making under uncertainty</li>
+                <li>Resilience evaluation for intelligent cyber-physical systems</li>
+                <li>Teaching and reproducible experimentation in AI and cybersecurity</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Example Use Cases</h2>
+
+            <ul>
+                <li>Evaluate the impact of unreliable or malicious sources in a distributed AI scenario</li>
+                <li>Compare defense mechanisms against poisoning, evasion, or degraded behaviors</li>
+                <li>Integrate intrusion detection datasets for IoT or connected vehicle scenarios</li>
+                <li>Compute trustworthiness scores before and after attacks</li>
+                <li>Analyze how confidence-aware fusion improves robustness and decision quality</li>
+                <li>Compare multiple experimental runs using unified metrics</li>
+                <li>Add new datasets, attacks, defenses, models, metrics, or scenarios through a modular interface</li>
             </ul>
         </section>
 
         <section class="author-section">
             <div class="author-name">Dr. Okba Ben Atia</div>
+
             <div class="social-links">
-                <a href="https://scholar.google.com/citations?user=n5zSD7QAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-                <a href="https://www.linkedin.com/in/benatiaokba/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://scholar.google.com/citations?user=n5zSD7QAAAAJ&hl=en"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Google Scholar
+                </a>
+
+                <a href="https://www.linkedin.com/in/benatiaokba/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    LinkedIn
+                </a>
             </div>
         </section>
 
